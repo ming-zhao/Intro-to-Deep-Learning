@@ -10,7 +10,7 @@ if not os.path.exists("./Modules/Regressor"):
   os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Regressor/__init__.py -q -o /dev/null")
   os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Regressor/Bayesian.py -q -o /dev/null")
   os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Regressor/Empirical.py -q -o /dev/null")
-  os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Regressor/LeastSquares.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Regressor/LeastSquares.py -q -o /dev/null")
   os.system("wget -P ./Modules/Regressor https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Regressor/Regressor.py -q -o /dev/null")
 if not os.path.exists("./Modules/Classifier"):
   os.makedirs('./Modules/Classifier')
