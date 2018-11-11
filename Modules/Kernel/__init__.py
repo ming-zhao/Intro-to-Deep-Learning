@@ -1,0 +1,5 @@
+from .GaussianProcessRegressor import GaussianProcessRegressor
+from .GaussianProcessClassifier import GaussianProcessClassifier
+from .SupportVectorClassifier import SupportVectorClassifier
+from .RBF import RBF
+
