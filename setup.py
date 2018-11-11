@@ -18,3 +18,11 @@ if not os.path.exists("./Modules/Classifier"):
   os.system("wget -P ./Modules/Classifier https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Classifier/Logistic.py -q -o /dev/null")
   os.system("wget -P ./Modules/Classifier https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Classifier/LeastSquares.py -q -o /dev/null")
   os.system("wget -P ./Modules/Classifier https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Classifier/Classifier.py -q -o /dev/null")
+if not os.path.exists("./Modules/Kernel"):
+  os.makedirs('./Modules/Kernel')
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/__init__.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/GaussianProcessClassifier.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/GaussianProcessRegressor.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/RBF.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/SupportVectorClassifier.py -q -o /dev/null")
+  os.system("wget -P ./Modules/Kernel https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/Kernel/Kernel.py -q -o /dev/null")
