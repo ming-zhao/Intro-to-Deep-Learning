@@ -1,4 +1,7 @@
 import os
+if not os.path.exists("./Modules"):
+  os.system("mkdir Modules")
+  os.system("cd Modules")
 if not os.path.exists("./DesignMat"):
   os.system("mkdir DesignMat")
   os.system("wget -P ./DesignMat https://raw.githubusercontent.com/ming-zhao/Intro-to-Deep-Learning/master/Modules/DesignMat/__init__.py -q -o /dev/null")
