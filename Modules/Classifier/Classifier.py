@@ -24,6 +24,14 @@ class Classifier(object):
         else:
             raise NotImplementedError
 
+    def softmax(self, a):
+        a_max = np.max(a, axis=-1, keepdims=True)
+        exp_a = np.exp(a - a_max)
+        return exp_a / np.sum(exp_a, axis=-1, keepdims=True)            
+    
+    def sigmoid(self, a):
+        return np.tanh(a * 0.5) * 0.5 + 0.5    
+            
     def _check_input(self, X):
         if not isinstance(X, np.ndarray):
             raise ValueError("X(input) must be np.ndarray")
