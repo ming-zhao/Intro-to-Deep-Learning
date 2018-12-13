@@ -1,1 +1,1 @@
-# Intro-to-Deep-Learning
+# Machine Learning
