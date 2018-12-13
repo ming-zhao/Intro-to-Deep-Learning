@@ -1,6 +1,5 @@
 import numpy as np
 
-
 class GaussianProcessClassifier(object):
 
     def __init__(self, kernel, noise_level=1e-4):
