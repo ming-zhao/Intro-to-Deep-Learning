@@ -1,0 +1,47 @@
+.. Test documentation master file, created by
+   sphinx-quickstart on Mon Apr  8 17:44:12 2019.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+.. |br| raw:: html
+
+    <br>
+
+
+Ming Zhao
+=============
+Assistant Professor |br|
+`C. T. Bauer College of Business <https://www.bauer.uh.edu/>`_ |br|
+Department of Decision and Information Sciences |br|
+334 Melcher Hall, Houston, TX 77204 |br|
+Phone: 713.743.7530 |br|
+Email: mzhao(at)bauer(dot)uh(dot)edu 
+
+Biography
+------------
+Dr. Zhao is an assistant professor of business analytics in the Department of Decision and Information Sciences at the University of Houston. Before joining the University of Houston, he served as a senior operations research specialist in Advanced Analytics and Optimization Services (AAOS) group at SAS from 2009 to 2015. He received a PhD degree in the Department of Industrial & System Engineering at the University at Buffalo in 2008 and was a postdoctoral researcher in Business Analytics & Mathematical Sciences (BAMS) group at IBM T.J. Watson research center from 2008 to 2009.
+
+Research Intrest
+------------------
+Data Driven Optimization, Risk Management, Healthcare Operations, Big Data Analytics.
+
+
+Publications
+-----------------
+
+
+Research
+-------------
+
+Machine Learning
+*********************
+.. toctree::
+   :maxdepth: 1
+
+   tt/tmp1
+
+.. Indices and tables
+	------------------
+	* :ref:`genindex`
+	* :ref:`modindex`
+	* :ref:`search`
